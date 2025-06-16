@@ -1,0 +1,7 @@
+numpy==2.1.3
+xgboost
+torch
+ollama
+transformers
+scikit-learn
+pot
