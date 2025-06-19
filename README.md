@@ -7,7 +7,7 @@ This repository contains the code and data for the paper **“REISD: Detecting L
 * **Bilingual Support**: Handles both **Chinese** and **English** texts.
 * **Iterative Rewriting**: Uses the Ollama API (e.g., `qwen2.5:7b`) to produce two rounds of rewrites per input.
 * **Semantic Analysis**: Computes **BERTScore** and **MoverScore** between consecutive rewrites.
-* **Feature Extraction**: Derives six semantic-shift features from the rewrite chain.
+* **Feature Extraction**: Derives semantic-shift features from the rewrite chain.
 * **Classification**: Applies a pre-trained **XGBoost** model to label text as AI- or human-generated.
 * **Configurable**: All key parameters—input, model, number of rewrites—are exposed via command‑line flags.
 
