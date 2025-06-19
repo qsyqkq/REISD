@@ -51,7 +51,7 @@ This repository contains the code and data for the paper **“REISD: Detecting L
 | --------- | ----------------------- | ----------------- | ----------------------- | ----------------- |
 | BERTScore | 63.12                   | 66.42             | 74.16                   | 66.90             |
 | Raidar    | 66.00                   | 62.32             | 84.22                   | 66.02             |
-| **REISD** | 76.24              | 76.64         | 83.96               | 83.35         |
+| **REISD (Ours)** | 76.24              | 76.64         | 83.96               | 83.35         |
 
 ## ⚙️ Installation
 
