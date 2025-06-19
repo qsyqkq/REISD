@@ -2,6 +2,7 @@
 
 This repository contains the code and data for the paper **“REISD: Detecting LLM-Generated Text via Iterative Semantic Difference.”**
 
+Read this in ENglish(readme.md) or Chinese(readme_zh.md) 
 ## 🚀 Features
 
 * **Bilingual Support**: Handles both **Chinese** and **English** texts.
