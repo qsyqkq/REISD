@@ -10,7 +10,7 @@ Read this in [English](README.md) or [Chinese](README_zh.md)
 * **Semantic Analysis**: Computes **BERTScore** and **MoverScore** between consecutive rewrites.
 * **Feature Extraction**: Derives semantic-shift features from the rewrite chain.
 * **Classification**: Applies a pre-trained **XGBoost** model to label text as AI- or human-generated.
-* **Configurable**: All key parameters—input, model, number of rewrites—are exposed via command‑line flags.
+* **Configurable**: All key parameters—input, model—are exposed via command‑line flags.
 
 ## 🧩 How It Works
 
