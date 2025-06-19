@@ -58,11 +58,13 @@ numpy=2.1.3
 
 ollama (Python API wrapper)
 ### 📦 Installation
-  # Install required packages
+```
+# Install required packages
 pip install -r requirements.txt
 
-  # Download transformer models
+# Download transformer models
 python -c "from transformers import AutoTokenizer, AutoModel; AutoTokenizer.from_pretrained('hfl/chinese-roberta-wwm-ext'); AutoModel.from_pretrained('hfl/chinese-roberta-wwm-ext')"
+```
 ### ⚙️ Usage
 * run train.py to validation the data reported in paper.
 * `pos_train_files` and `pos_train_files` represent for human-written text and its LLM-rewritten version, `neg_train_files` and `neg_train_files` represent for LLM-Generated Text and its LLM-rewrited version.
