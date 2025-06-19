@@ -85,7 +85,7 @@ AutoModel.from_pretrained('hfl/chinese-roberta-wwm-ext')"
 * **train.py**: Script for reproducing the paper’s results.
 * **Positive files**: Human text + its LLM rewrites.
 * **Negative files**: LLM-generated text + its rewrites.
-* JSON outputs in `/output`.
+* All data used for paper stored in `/output`.
 * Use the `exclude_features` flag to ablate specific features.
 
 ### Run the Detector
@@ -110,7 +110,7 @@ REISD/
 ├── xgboost_model.json    # Pretrained XGBoost model
 ├── example/
 │   └── human_300.txt     # Sample input
-├── output/               # Validation results
+├── output/               # Validation dataset
 ├── requirements.txt
 └── README.md
 ```
