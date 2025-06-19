@@ -2,6 +2,7 @@
 
 本仓库包含论文 **“REISD: Detecting LLM-Generated Text via Iterative Semantic Difference”** 的全部代码与数据。
 
+Read this in [English](README.md) or [Chinese](README_zh.md) 
 ## 🚀 功能特色
 
 * **支持中英文**：可处理 **中文** 与 **英文** 文本。
