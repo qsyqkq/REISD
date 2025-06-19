@@ -1,7 +1,7 @@
-#REISD
+# REISD
 This is code and data for paper "REISD: Detecting LLM-Generated Text via Iterative Semantic Difference".
 
-#Brief Intro
+# Brief Intro
 \begin{table}[H]
     \centering
     \begin{tabular}{@{}lrrrrrr@{}}
